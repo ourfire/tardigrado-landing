@@ -317,4 +317,38 @@ document.addEventListener('DOMContentLoaded', function() {
     if (counterSection) {
         counterObserver.observe(counterSection);
     }
+});
+
+// Cookie Banner Functionality
+function showCookieBanner() {
+    const cookieBanner = document.getElementById('cookieBanner');
+    const cookiesAccepted = localStorage.getItem('cookiesAccepted');
+    
+    if (!cookiesAccepted && cookieBanner) {
+        setTimeout(() => {
+            cookieBanner.classList.add('show');
+        }, 2000);
+    }
+}
+
+function acceptCookies() {
+    localStorage.setItem('cookiesAccepted', 'true');
+    hideCookieBanner();
+}
+
+function declineCookies() {
+    localStorage.setItem('cookiesAccepted', 'false');
+    hideCookieBanner();
+}
+
+function hideCookieBanner() {
+    const cookieBanner = document.getElementById('cookieBanner');
+    if (cookieBanner) {
+        cookieBanner.classList.remove('show');
+    }
+}
+
+// Initialize cookie banner
+document.addEventListener('DOMContentLoaded', function() {
+    showCookieBanner();
 }); 
