@@ -446,6 +446,58 @@ body {
     transform: rotate(45deg) scale(1.1);
 }
 
+/* Brand-specific colors */
+.brand-xture .brand-shape {
+    background: #4CAF50; /* Verde */
+}
+
+.brand-xture .brand-features span {
+    background: #4CAF50;
+}
+
+.brand-xture .brand-link {
+    background: #4CAF50;
+}
+
+.brand-xture .brand-link:hover {
+    background: #45a049;
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3);
+}
+
+.brand-sibarita .brand-shape {
+    background: #E2725B; /* Terracota */
+}
+
+.brand-sibarita .brand-features span {
+    background: #E2725B;
+}
+
+.brand-sibarita .brand-link {
+    background: #E2725B;
+}
+
+.brand-sibarita .brand-link:hover {
+    background: #D2691E;
+    box-shadow: 0 8px 25px rgba(226, 114, 91, 0.3);
+}
+
+.brand-ahouse .brand-shape {
+    background: #8B4513; /* Café */
+}
+
+.brand-ahouse .brand-features span {
+    background: #8B4513;
+}
+
+.brand-ahouse .brand-link {
+    background: #8B4513;
+}
+
+.brand-ahouse .brand-link:hover {
+    background: #A0522D;
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.3);
+}
+
 /* Contact Section */
 .contact {
     padding: 120px 0;
