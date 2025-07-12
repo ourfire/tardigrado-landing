@@ -540,7 +540,12 @@ body {
 
 .contact-item i {
     width: 20px;
-    color: #ccc;
+    color: #4CAF50;
+}
+
+.contact-item span {
+    color: white;
+    font-weight: 500;
 }
 
 .contact-form {
