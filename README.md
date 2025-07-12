@@ -4,9 +4,9 @@ Landing page para Tardigrado, empresa líder en operaciones inmobiliarias, admin
 
 ## Marcas del Portafolio
 
-- **XTURE** - Espacios únicos y experiencias
+- **XTURE** - Turismo transformacional y experiencias de crecimiento personal
 - **SIBARITA** - Propiedades premium
-- **AHOUSE** - Administración inmobiliaria
+- **AHOUSE** - Marca de estilo de vida y concept store ([ahouse.mx](https://ahouse.mx))
 
 ## Tecnologías
 

@@ -328,6 +328,32 @@ body {
     font-weight: 500;
 }
 
+.brand-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+}
+
+.brand-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 184, 148, 0.4);
+    color: white;
+}
+
+.brand-link i {
+    font-size: 0.8rem;
+}
+
 .brand-visual {
     flex-shrink: 0;
 }
