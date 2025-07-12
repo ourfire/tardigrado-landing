@@ -517,12 +517,14 @@ body {
     font-weight: 300;
     margin-bottom: 1rem;
     letter-spacing: 1px;
+    color: white;
 }
 
 .contact-info p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    opacity: 0.8;
+    color: white;
+    opacity: 0.9;
     line-height: 1.6;
 }
 
