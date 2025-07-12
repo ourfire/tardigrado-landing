@@ -47,7 +47,7 @@ body {
 .nav-logo h2 {
     font-weight: 700;
     font-size: 1.5rem;
-    color: white;
+    color: #1a1a1a;
     letter-spacing: 3px;
 }
 
@@ -59,14 +59,14 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: #ccc;
+    color: #666;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
 }
 
 .nav-menu a:hover {
-    color: white;
+    color: #1a1a1a;
 }
 
 .nav-menu a::after {
@@ -76,7 +76,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: white;
+    background: #1a1a1a;
     transition: width 0.3s ease;
 }
 
@@ -93,7 +93,7 @@ body {
 .hamburger span {
     width: 25px;
     height: 2px;
-    background: white;
+    background: #1a1a1a;
     margin: 4px 0;
     transition: 0.3s;
     border-radius: 1px;
